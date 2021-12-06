@@ -1,9 +1,9 @@
-import React from "react";
+import React, { FC } from "react";
 import Footer from "./Footer";
 import Header from "./Header";
 import Link from "next/link";
 
-function Layouts({ children }) {
+const Layouts: React.FC<{}> = ({ children }) => {
   return (
     <>
       <Header />
@@ -16,6 +16,6 @@ function Layouts({ children }) {
       </a>
     </>
   );
-}
+};
 
 export default Layouts;
