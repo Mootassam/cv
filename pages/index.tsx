@@ -7,7 +7,7 @@ const Home: NextPage = () => {
         <div className='container'>
           <div className='row mb-5 align-items-center'>
             <div className='col-md-12 col-lg-6 mb-4 mb-lg-0' data-aos='fade-up'>
-              <h2>Hey, I'm Mootassame Boughdiri</h2>
+              <h2>Hey, Im Mootassame Boughdiri</h2>
               <p className='mb-0'>
                 Freelance Creative &amp; Professional Graphics Designer
               </p>
