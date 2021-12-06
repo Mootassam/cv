@@ -1,6 +1,5 @@
 import type { NextPage } from "next";
 
-import RoutesComponent from "./view/routes/RoutesComponent";
 const Home: NextPage = () => {
   return (
     <>
