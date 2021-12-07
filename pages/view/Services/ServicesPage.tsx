@@ -1,6 +1,7 @@
 import React from "react";
-import Layouts from "../layout/Layouts";
-
+export const config = {
+  unstable_runtimeJS: false,
+};
 function ServicesPage() {
   return (
     <>

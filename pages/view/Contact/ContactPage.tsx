@@ -1,5 +1,7 @@
 import React from "react";
-
+export const config = {
+  unstable_runtimeJS: false,
+};
 function ContactPage() {
   return (
     <section className='section pb-5'>

@@ -1,7 +1,16 @@
 import React from "react";
 import Link from "next/link";
-
+import { useRouter } from "next/router";
+import { route } from "next/dist/server/router";
+const menue = [
+  { title: "Home", path: "/" },
+  { title: "About Me", path: "/view/About/AboutPage" },
+  { title: "Services", path: "/view/Services/ServicesPage" },
+  { title: "Works", path: "/view/Works/WorksPage" },
+  { title: "Contact", path: "/view/Contact/ContactPage" },
+];
 function Header() {
+  const router = useRouter();
   return (
     <>
       <div className='collapse navbar-collapse custom-navmenu' id='main-navbar'>
@@ -9,23 +18,20 @@ function Header() {
           <div className='row align-items-start'>
             <div className='col-md-2'>
               <ul className='custom-menu'>
-                <li className='active'>
-                  <Link href='/'>
-                    <a>Home</a>
-                  </Link>
-                </li>
-                <li>
-                  <Link href='/view/About/AboutPage'>About Me</Link>
-                </li>
-                <li>
-                  <Link href='/view/Services/ServicesPage'>Services</Link>
-                </li>
-                <li>
-                  <Link href='/view/Works/WorksPage'>Works</Link>
-                </li>
-                <li>
-                  <Link href='/view/Contact/ContactPage'>Contact</Link>
-                </li>
+                {menue.map((item, index) => {
+                  return (
+                    <>
+                      <li
+                        className={`
+                         ${router.pathname === item.path ? "active" : null}
+                          `}>
+                        <Link key={index} href={item.path}>
+                          <a>{item.title}</a>
+                        </Link>
+                      </li>
+                    </>
+                  );
+                })}
               </ul>
             </div>
             <div className='col-md-6 d-none d-md-block mr-auto'>
