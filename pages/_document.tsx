@@ -6,6 +6,9 @@ class MyDocument extends Document {
     const initialProps = await Document.getInitialProps(ctx);
     return { ...initialProps };
   }
+  config = {
+    unstable_runtimeJS: false,
+  };
 
   render() {
     return (
