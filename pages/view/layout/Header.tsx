@@ -4,10 +4,10 @@ import { useRouter } from "next/router";
 import { route } from "next/dist/server/router";
 const menue = [
   { title: "Home", path: "/" },
-  { title: "About Me", path: "/view/About/AboutPage" },
-  { title: "Services", path: "/view/Services/ServicesPage" },
-  { title: "Works", path: "/view/Works/WorksPage" },
-  { title: "Contact", path: "/view/Contact/ContactPage" },
+  { title: "About Me", path: "/view/About" },
+  { title: "Services", path: "/view/Services" },
+  { title: "Works", path: "/view/Works" },
+  { title: "Contact", path: "/view/Contact" },
 ];
 function Header() {
   const router = useRouter();
