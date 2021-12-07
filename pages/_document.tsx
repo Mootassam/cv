@@ -28,6 +28,7 @@ class MyDocument extends Document {
           href='assets/vendor/bootstrap/css/bootstrap.min.css'
           rel='stylesheet'
         />
+
         <link
           href='assets/vendor/bootstrap-icons/bootstrap-icons.css'
           rel='stylesheet'
@@ -38,16 +39,16 @@ class MyDocument extends Document {
         />
         {/* Template Main CSS File */}
         <link href='assets/css/style.css' rel='stylesheet' />
-        <Head />
-        <body>
-          <Main />
-          <NextScript />
-        </body>
         <script src='assets/vendor/aos/aos.js'></script>
         <script src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
         <script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
         <script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
         <script src='assets/js/main.js'></script>
+        <Head />
+        <body>
+          <Main />
+          <NextScript />
+        </body>
       </Html>
     );
   }

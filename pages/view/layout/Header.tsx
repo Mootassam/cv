@@ -63,9 +63,11 @@ function Header() {
       </div>
       <nav className='navbar navbar-light custom-navbar'>
         <div className='container'>
-          <a className='navbar-brand' href='index.html'>
-            MyPortfolio.
-          </a>
+          <Link href='/'>
+            <a className='navbar-brand' href='index.html'>
+              MyPortfolio.
+            </a>
+          </Link>
           <a
             href='#'
             className='burger'
