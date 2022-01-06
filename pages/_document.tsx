@@ -10,41 +10,49 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-        <meta charSet='utf-8' />
-        <meta content='width=device-width, initial-scale=1.0' name='viewport' />
-        <title>Mootassam Boughdiri </title>
+        <Head>
+          <meta charSet='utf-8' />
+          <meta
+            content='width=device-width, initial-scale=1.0'
+            name='viewport'
+          />
+          <title>Mootassam Boughdiri</title>
 
-        {/* Favicons */}
-        <link href='assets/img/favicon.png' rel='icon' />
-        <link href='assets/img/apple-touch-icon.png' rel='apple-touch-icon' />
-        {/* Google Fonts */}
-        <link
-          href='https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i'
-          rel='stylesheet'
-        />
-        {/* Vendor CSS Files */}
-        <link href='assets/vendor/aos/aos.css' rel='stylesheet' />
-        <link
-          href='assets/vendor/bootstrap/css/bootstrap.min.css'
-          rel='stylesheet'
-        />
+          {/* Favicons */}
+          <link href='/assets/img/favicon.png' rel='icon' />
+          <link
+            href='/assets/img/apple-touch-icon.png'
+            rel='apple-touch-icon'
+          />
+          <link
+            href='https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i'
+            rel='stylesheet'
+          />
+          <script
+            data-ad-client='ca-pub-6840911260011492'
+            async
+            src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
 
-        <link
-          href='assets/vendor/bootstrap-icons/bootstrap-icons.css'
-          rel='stylesheet'
-        />
-        <link
-          href='assets/vendor/swiper/swiper-bundle.min.css'
-          rel='stylesheet'
-        />
-        {/* Template Main CSS File */}
-        <link href='assets/css/style.css' rel='stylesheet' />
-        <script src='assets/vendor/aos/aos.js'></script>
-        <script src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
-        <script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
-        <script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
-        <script src='assets/js/main.js'></script>
-        <Head />
+          <script src='assets/vendor/aos/aos.js'></script>
+          <script src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
+          <script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
+          <script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
+          <script src='assets/js/main.js'></script>
+          <script
+            async
+            src='https://www.googletagmanager.com/gtag/js?id=G-HTXT9VZ036'></script>
+
+          <script
+            dangerouslySetInnerHTML={{
+              __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag ('config', 'G-HTXT9VZ036');
+          `,
+            }}
+          />
+        </Head>
         <body>
           <Main />
           <NextScript />
