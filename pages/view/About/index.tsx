@@ -122,7 +122,7 @@ function AboutPage() {
           <div className='col-md-7 mb-5 mb-md-0' data-aos='fade-up'>
             <p>
               <img
-                src='assets/img/person_1_sq.jpg'
+                src='../../../assets/img/person_1_sq.jpg'
                 alt='Image'
                 className='img-fluid'
               />

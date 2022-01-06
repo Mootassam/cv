@@ -249,58 +249,6 @@ const Home: NextPage = () => {
       </section>
       {/* End Services Section */}
       {/* ======= Testimonials Section ======= */}
-      <section className='section pt-0'>
-        <div className='container'>
-          <div
-            className='testimonials-slider swiper'
-            data-aos='fade-up'
-            data-aos-delay={100}>
-            <div className='swiper-wrapper'>
-              <div className='swiper-slide'>
-                <div className='testimonial-wrap'>
-                  <div className='testimonial'>
-                    <img
-                      src='/assets/img/person_1.jpg'
-                      alt='Image'
-                      className='img-fluid'
-                    />
-                    <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam necessitatibus incidunt ut officiis explicabo
-                        inventore.
-                      </p>
-                    </blockquote>
-                    <p>— Jean Hicks</p>
-                  </div>
-                </div>
-              </div>
-              {/* End testimonial item */}
-              <div className='swiper-slide'>
-                <div className='testimonial-wrap'>
-                  <div className='testimonial'>
-                    <img
-                      src='/assets/img/person_2.jpg'
-                      alt='Image'
-                      className='img-fluid'
-                    />
-                    <blockquote>
-                      <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                        Quisquam necessitatibus incidunt ut officiis explicabo
-                        inventore.
-                      </p>
-                    </blockquote>
-                    <p>— Chris Stanworth</p>
-                  </div>
-                </div>
-              </div>
-              {/* End testimonial item */}
-            </div>
-            <div className='swiper-pagination' />
-          </div>
-        </div>
-      </section>
     </>
   );
 };
