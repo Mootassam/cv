@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
 import { route } from "next/dist/server/router";
@@ -11,9 +11,12 @@ const menue = [
 ];
 function Header() {
   const router = useRouter();
+  const [isModal, setIsModal] = useState(false);
+
+  const burger = isModal ? "burger active" : "burger";
   return (
     <>
-      <div className='collapse navbar-collapse custom-navmenu' id='main-navbar'>
+      <div className='ollapse navbar-collapse custom-navmenu' id='main-navbar'>
         <div className='container py-2 py-md-5'>
           <div className='row align-items-start'>
             <div className='col-md-2'>
@@ -70,9 +73,12 @@ function Header() {
           </Link>
           <a
             href='#'
-            className='burger'
+            className={burger}
             data-bs-toggle='collapse'
-            data-bs-target='#main-navbar'>
+            data-bs-target='#main-navbar'
+            onClick={() => {
+              setIsModal(!isModal);
+            }}>
             <span />
           </a>
         </div>
