@@ -28,6 +28,7 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i'
             rel='stylesheet'
           />
+
           <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'></script>
           <script
             dangerouslySetInnerHTML={{

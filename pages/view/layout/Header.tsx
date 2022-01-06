@@ -16,7 +16,7 @@ function Header() {
   const burger = isModal ? "burger active" : "burger";
   return (
     <>
-      <div className='ollapse navbar-collapse custom-navmenu' id='main-navbar'>
+      <div className='collapse navbar-collapse custom-navmenu' id='main-navbar'>
         <div className='container py-2 py-md-5'>
           <div className='row align-items-start'>
             <div className='col-md-2'>

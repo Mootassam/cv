@@ -128,24 +128,13 @@ function AboutPage() {
               />
             </p>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor
-              dignissimos delectus minima reprehenderit molestias illo dolorem
-              et, odio!
+              A Full Stack Developer with 1+ year of hands-on experience
+              designing, developing, and implementing applications and solutions
+              using Reactjs, react-native,Mongodb ,Nodejs . Seeking a
+              challenging role as a Full-Stack Developer where I can apply my
+              broad development experience and hands-on technical expertise.
             </p>
-            <p>
-              Fuga fugit distinctio delectus iure vitae consequatur excepturi,
-              mollitia, consectetur molestias sapiente rem consequuntur, illum
-              adipisci, sed obcaecati!
-            </p>
-            <p>
-              Ex, dolorem qui voluptas reprehenderit provident, ad ipsum iure a
-              consequatur voluptatem incidunt nobis. Vitae reiciendis quae ex.
-            </p>
-            <p>
-              Optio consectetur culpa nemo, fugit pariatur veniam voluptate
-              laudantium rerum fuga dolor in maiores ea nisi voluptatibus.
-              Minus?
-            </p>
+
             <p>
               <a href='#' className='readmore'>
                 Download my CV
