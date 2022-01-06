@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-sync-scripts */
 import Document, { Html, Head, Main, NextScript } from "next/document";
-
+// eslint-disable-next-line @next/next/no-script-in-document
 class MyDocument extends Document {
   static async getInitialProps(ctx: any) {
     const initialProps = await Document.getInitialProps(ctx);
@@ -28,20 +28,8 @@ class MyDocument extends Document {
             href='https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i'
             rel='stylesheet'
           />
-          <script
-            data-ad-client='ca-pub-6840911260011492'
-            async
-            src='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js'></script>
 
-          <script src='assets/vendor/aos/aos.js'></script>
           <script src='assets/vendor/bootstrap/js/bootstrap.bundle.min.js'></script>
-          <script src='assets/vendor/isotope-layout/isotope.pkgd.min.js'></script>
-          <script src='assets/vendor/swiper/swiper-bundle.min.js'></script>
-          <script src='assets/js/main.js'></script>
-          <script
-            async
-            src='https://www.googletagmanager.com/gtag/js?id=G-HTXT9VZ036'></script>
-
           <script
             dangerouslySetInnerHTML={{
               __html: `

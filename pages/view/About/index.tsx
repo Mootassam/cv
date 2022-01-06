@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
 export const config = {
   unstable_runtimeJS: false,
 };
+
 function AboutPage() {
   return (
     <section className='section pb-5'>
