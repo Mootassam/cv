@@ -1,5 +1,7 @@
 /* eslint-disable react/jsx-no-comment-textnodes */
 import React from "react";
+import Image from "next/image";
+import Nodejs from "../../../assets/svg/nodejs-icon-logo-svgrepo-com.svg";
 export const config = {
   unstable_runtimeJS: false,
 };
@@ -121,10 +123,12 @@ function AboutPage() {
           </div>
           <div className='col-md-7 mb-5 mb-md-0' data-aos='fade-up'>
             <p>
-              <img
-                src='../../../assets/img/person_1_sq.jpg'
-                alt='Image'
+              <Image
+                src={Nodejs}
+                alt='Image svg'
                 className='img-fluid'
+                width={500}
+                height={500}
               />
             </p>
             <p>
