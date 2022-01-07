@@ -3,10 +3,10 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { route } from "next/dist/server/router";
 const menue = [
-  { title: "Home", path: "/" },
-  { title: "About Me", path: "/view/About" },
-  { title: "Services", path: "/view/Services" },
-  { title: "Works", path: "/view/Works" },
+  { title: "About", path: "/" },
+  { title: "Experience", path: "/view/About" },
+  { title: "Skills", path: "/view/Services" },
+  { title: "Projects", path: "/view/Works" },
   { title: "Contact", path: "/view/Contact" },
 ];
 function Header() {
