@@ -26,18 +26,14 @@ function Header() {
           <div id='filters' className='filters'>
             {menue.map((item, index) => {
               return (
-                <>
-                  <Link key={index} href={item.path}>
-                    <a
-                      href='#'
-                      data-filter='*'
-                      className={` 
+                <Link key={index} href={item.path}>
+                  <a
+                    className={` 
                          ${router.pathname === item.path ? "active" : null}
                           `}>
-                      {item.title}
-                    </a>
-                  </Link>
-                </>
+                    {item.title}
+                  </a>
+                </Link>
               );
             })}
           </div>
