@@ -23,31 +23,24 @@ function Header() {
               MyPortfolio.
             </a>
           </Link>
-          <nav
-            className='navbar navbar-expand-lg ftco_navbar ftco-navbar-light'
-            id='ftco-navbar'>
-            <div
-              className='navbar-collapse collapse show'
-              id='ftco-nav'
-              style={{}}>
-              <ul className='navbar-nav ml-auto mr-md-3'>
-                {menue.map((item, index) => {
-                  return (
-                    <>
-                      <li
-                        className={`nav-item 
+          <div id='filters' className='filters'>
+            {menue.map((item, index) => {
+              return (
+                <>
+                  <Link key={index} href={item.path}>
+                    <a
+                      href='#'
+                      data-filter='*'
+                      className={` 
                          ${router.pathname === item.path ? "active" : null}
                           `}>
-                        <Link key={index} href={item.path}>
-                          <a className='nav-link'>{item.title}</a>
-                        </Link>
-                      </li>
-                    </>
-                  );
-                })}
-              </ul>
-            </div>
-          </nav>
+                      {item.title}
+                    </a>
+                  </Link>
+                </>
+              );
+            })}
+          </div>
 
           <a
             href='#'
