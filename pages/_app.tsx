@@ -1,3 +1,4 @@
+import "../styles/bootstrap.min.css";
 import "../styles/style.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import type { AppProps } from "next/app";
