@@ -25,11 +25,11 @@ const Home: NextPage = () => {
                 srcSet='https://uploads-ssl.webflow.com/601435a68610222428247748/601435c2578f7c615c741163_DSC_6170-p-1080.jpeg 1080w, https://uploads-ssl.webflow.com/601435a68610222428247748/601435c2578f7c615c741163_DSC_6170-p-1600.jpeg 1600w, https://uploads-ssl.webflow.com/601435a68610222428247748/601435c2578f7c615c741163_DSC_6170-p-2000.jpeg 2000w, https://uploads-ssl.webflow.com/601435a68610222428247748/601435c2578f7c615c741163_DSC_6170.jpg 2500w'
                 alt='Mariela Lopez Photo'
                 className='image-2'
+                width={750}
+                height={500}
               />
             </div>
-            <div
-              id='w-node-_5427fd33-920a-1356-805e-e4286430deea-e6dd30bd'
-              className='hero-message'>
+            <div className='hero-message'>
               <div className='message-inner'>
                 <h1 className='display-heading-one hero'>
                   Creativity
@@ -125,7 +125,7 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={Web} alt='Image Png' className='img-about' />
+              <Image src={Web} alt='Image Png' className='image-3' />
 
               <div className='service-info'>
                 <h4 className='small-title'>Web Developement</h4>
@@ -136,10 +136,10 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div
-              className='col-12 col-sm-4 col-md-4 col-lg-4 mb-4'
+              className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
-              data-aos-delay={100}>
-              <Image src={Mobile} alt='Image Png' className='img-about' />
+              data-aos-delay>
+              <Image src={Mobile} alt='Image Png' className='image-3' />
               <div className='service-info'>
                 <h4 className='small-title'>Mobile Developement</h4>
                 <div className='text-block-3'>
@@ -149,10 +149,10 @@ const Home: NextPage = () => {
               </div>
             </div>
             <div
-              className='col-12 col-sm-4 col-md-4 col-lg-4 mb-4'
+              className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={base} alt='Image Png' className='img-about' />
+              <Image src={base} alt='Image Png' className='image-3' />
               <div className='service-info'>
                 <h4 className='small-title'>Deployement</h4>
                 <div className='text-block-3'>
