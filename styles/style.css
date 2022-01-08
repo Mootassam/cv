@@ -472,6 +472,12 @@ h1 {
 }
 
 @media (max-width: 767px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
   .custom-navbar > .container {
     position: fixed;
     bottom: 0px;
