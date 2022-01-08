@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import Image from "next/image";
+
 const menue = [
   { title: "Home", path: "/", icon: "bi bi-house" },
   { title: "Work", path: "/view/Works", icon: "bi bi-pc-display-horizontal" },
@@ -8,6 +10,7 @@ const menue = [
   { title: "About", path: "/view/About", icon: "bi bi-file-person-fill" },
   { title: "Contact", path: "/view/Contact", icon: "bi bi-person-lines-fill" },
 ];
+import logos from "../../../assets/img/logo_transparent.png";
 function Header() {
   const router = useRouter();
   const [isModal, setIsModal] = useState(false);
@@ -35,9 +38,10 @@ function Header() {
               );
             })}
           </div>
+
           <Link href='/'>
             <a className='navbar-brand'>
-              <i className='bi bi-person-lines-fill'></i>
+              <Image src={logos} alt='logo' width={150} height={150} />
             </a>
           </Link>
         </div>

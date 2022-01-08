@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import Nodejs from "/assets/img/about.png";
+import About from "/assets/img/about.png";
 import Web from "/assets/img/web_developement.png";
 import Mobile from "/assets/img/mobile_developement.png";
 import base from "/assets/img/data_base.png";
@@ -83,7 +83,7 @@ const Home: NextPage = () => {
           </div>
           <div className='row'>
             <div className='col-md-6 ml-auto ' data-aos='fade-up'>
-              <Image src={Nodejs} alt='Image svg' className='img-about' />
+              <Image src={About} alt='Image svg' className='img-about' />
             </div>
             <div className='col-md-6 mb-5 mb-md-0' data-aos='fade-up'>
               <p>
