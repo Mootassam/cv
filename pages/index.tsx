@@ -1,9 +1,9 @@
 import type { NextPage } from "next";
 import Image from "next/image";
-import About from "/assets/img/about.png";
-import Web from "/assets/img/web_developement.png";
-import Mobile from "/assets/img/mobile_developement.png";
-import base from "/assets/img/data_base.png";
+import About from "/public/assets/img/about.png";
+import Web from "/public/assets/img/web_developement.png";
+import Mobile from "/public/assets/img/mobile_developement.png";
+import base from "/public/assets/img/data_base.png";
 
 export const config = {
   unstable_runtimeJS: false,

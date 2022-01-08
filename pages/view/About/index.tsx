@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import Footer from "../layout/Footer";
 
-import Nodejs from "../../../assets/img/about.png";
+import Nodejs from "/public/assets/img/about.png";
 export const config = {
   unstable_runtimeJS: false,
 };

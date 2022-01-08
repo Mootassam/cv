@@ -10,7 +10,7 @@ const menue = [
   { title: "About", path: "/view/About", icon: "bi bi-file-person-fill" },
   { title: "Contact", path: "/view/Contact", icon: "bi bi-person-lines-fill" },
 ];
-import logos from "../../../assets/img/logo_transparent.png";
+import logos from "/public/assets/img/logo_transparent.png";
 function Header() {
   const router = useRouter();
   const [isModal, setIsModal] = useState(false);
