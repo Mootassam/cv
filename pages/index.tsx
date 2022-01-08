@@ -123,11 +123,11 @@ const Home: NextPage = () => {
               data-aos='fade-up'
               data-aos-delay>
               <Image
-                src={"/assets/img/web_developement.png"}
+                src='/assets/img/web_developement.png'
                 alt='Image Png'
-                className='image-3'
                 width={750}
                 height={750}
+                className='image-3'
               />
 
               <div className='service-info'>
