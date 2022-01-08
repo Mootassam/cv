@@ -2,8 +2,7 @@
 import React from "react";
 import Image from "next/image";
 import Footer from "../layout/Footer";
-
-import Nodejs from "/public/assets/img/about.png";
+import about from "/public/assets/img/about.png";
 export const config = {
   unstable_runtimeJS: false,
 };
@@ -41,7 +40,7 @@ function AboutPage() {
             <div className='col-md-7 mb-5 mb-md-0' data-aos='fade-up'>
               <p>
                 <Image
-                  src={Nodejs}
+                  src={about}
                   alt='Image svg'
                   className='img-fluid'
                   width={500}

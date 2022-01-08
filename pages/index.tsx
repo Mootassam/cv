@@ -83,7 +83,7 @@ const Home: NextPage = () => {
           </div>
           <div className='row'>
             <div className='col-md-6 ml-auto ' data-aos='fade-up'>
-              <Image src={About} alt='Image svg' className='img-about' />
+              <Image src={About} alt='Image Png' className='img-about' />
             </div>
             <div className='col-md-6 mb-5 mb-md-0' data-aos='fade-up'>
               <p>
@@ -125,7 +125,7 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={Web} alt='Image svg' className='img-about' />
+              <Image src={Web} alt='Image Png' className='img-about' />
 
               <div className='service-info'>
                 <h4 className='small-title'>Web Developement</h4>
@@ -139,7 +139,7 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-4'
               data-aos='fade-up'
               data-aos-delay={100}>
-              <Image src={Mobile} alt='Image svg' className='img-about' />
+              <Image src={Mobile} alt='Image Png' className='img-about' />
               <div className='service-info'>
                 <h4 className='small-title'>Mobile Developement</h4>
                 <div className='text-block-3'>
@@ -152,7 +152,7 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-4'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={base} alt='Image svg' className='img-about' />
+              <Image src={base} alt='Image Png' className='img-about' />
               <div className='service-info'>
                 <h4 className='small-title'>Deployement</h4>
                 <div className='text-block-3'>
