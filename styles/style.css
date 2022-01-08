@@ -9,8 +9,18 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Inconsolata", monospace;
-  color: #0d1e2d;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  background-color: #faf9f7;
+  font-family: Mulish, sans-serif;
+  color: #151110;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: 300;
 }
 
 a {
@@ -23,7 +33,6 @@ a:hover {
 }
 
 h1,
-h2,
 h3,
 h4,
 h5,
@@ -31,11 +40,80 @@ h6,
 .font-heading {
   font-family: "Raleway", sans-serif;
 }
-
-.section {
-  padding: 7rem 0;
+.heading-11 {
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+}
+h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Marcellus, sans-serif;
+  color: #3b625f;
+  font-size: 43px;
+  line-height: 58px;
+  font-weight: 400;
+  letter-spacing: -0.96px;
 }
 
+.section {
+  padding: 9rem 0;
+}
+.img-help {
+  border: 0;
+  max-width: 100%;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.content-inner {
+  max-width: 840px;
+}
+.service-info {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  border: 0.5px #000;
+  text-align: center;
+}
+.text-block-3,
+.text-block-4,
+.text-block-5 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+}
+.small-title {
+  margin-bottom: 15px;
+  font-family: Poppins, sans-serif;
+  text-align: center;
+}
+.header-content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 80px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+}
+.help {
+  background-color: #f7f2ef;
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+.overhead {
+  margin-bottom: 20px;
+}
+.small-caps-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
 .filters a {
   text-decoration: none;
   color: #000;
@@ -157,8 +235,15 @@ h6,
   font-size: 20px;
 }
 
-.h4 {
-  font-size: 16px;
+h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Marcellus, sans-serif;
+  color: #3b625f;
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: 400;
+  letter-spacing: -0.5px;
 }
 
 .heading {
@@ -379,7 +464,7 @@ h1 {
   display: none;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 767px) {
   .custom-navbar > .container {
     position: fixed;
     bottom: 0px;
@@ -485,6 +570,8 @@ h1 {
 --------------------------------------------------------------*/
 .footer {
   padding: 0 0 4rem 0;
+  position: relative;
+  bottom: 0;
 }
 .footer a {
   color: #000;

@@ -7,9 +7,9 @@ function Footer() {
         <div className='row'>
           <div className='col-sm-6'>
             <p className='mb-1'>© Copyright MyPortfolio. All Rights Reserved</p>
-            <div className='credits'>
+            {/* <div className='credits'>
               Designed by <a href='https://bootstrapmade.com/'>BootstrapMade</a>
-            </div>
+            </div> */}
           </div>
           <div className='col-sm-6 social text-md-end'>
             <a href='#'>
