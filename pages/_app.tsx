@@ -4,7 +4,6 @@ import "../styles/style.css";
 
 import type { AppProps } from "next/app";
 import Layouts from "./view/layout/Layouts";
-import jQuery from "jquery";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

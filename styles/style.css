@@ -378,15 +378,16 @@ h1 {
 .mobile {
   display: none;
 }
+
 @media (max-width: 780px) {
   .custom-navbar > .container {
     position: fixed;
     bottom: 0px;
     display: flex;
-    flex-direction: row;
     align-items: flex-start;
-    background-color: rgb(163, 160, 160);
+    background-color: #f1f1f1;
     justify-content: space-evenly;
+    opacity: 1;
   }
   .mobile {
     display: block;
@@ -394,10 +395,13 @@ h1 {
     align-items: center;
     display: flex;
   }
+  .custom-navbar .navbar-brand {
+    font-size: 1rem;
+    display: none;
+  }
 }
 .custom-navbar .navbar-brand {
   font-size: 1rem;
-  display: none;
 }
 
 /* Burger */
