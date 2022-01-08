@@ -1,9 +1,6 @@
 import type { NextPage } from "next";
 import Image from "next/image";
 import About from "/public/assets/img/about.png";
-import Web from "/public/assets/img/web_developement.png";
-import Mobile from "/public/assets/img/mobile_developement.png";
-import base from "/public/assets/img/data_base.png";
 
 export const config = {
   unstable_runtimeJS: false,
@@ -125,7 +122,11 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={Web} alt='Image Png' className='image-3' />
+              <Image
+                src={require("/public/assets/img/web_developement.png")}
+                alt='Image Png'
+                className='image-3'
+              />
 
               <div className='service-info'>
                 <h4 className='small-title'>Web Developement</h4>
@@ -139,7 +140,11 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={Mobile} alt='Image Png' className='image-3' />
+              <Image
+                src={require("/public/assets/img/mobile_developement.png")}
+                alt='Image Png'
+                className='image-3'
+              />
               <div className='service-info'>
                 <h4 className='small-title'>Mobile Developement</h4>
                 <div className='text-block-3'>
@@ -152,7 +157,11 @@ const Home: NextPage = () => {
               className='col-12 col-sm-4 col-md-4 col-lg-4 mb-5'
               data-aos='fade-up'
               data-aos-delay>
-              <Image src={base} alt='Image Png' className='image-3' />
+              <Image
+                src={require("/public/assets/img/data_base.png")}
+                alt='Image Png'
+                className='image-3'
+              />
               <div className='service-info'>
                 <h4 className='small-title'>Deployement</h4>
                 <div className='text-block-3'>
