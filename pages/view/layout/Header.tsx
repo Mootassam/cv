@@ -17,14 +17,12 @@ function Header() {
     <>
       <nav className='navbar navbar-light custom-navbar'>
         <div className='container'>
-          <Link href='/'>
-            <a className='navbar-brand'>MyPortfolio.</a>
-          </Link>
           <div id='filters' className='filters'>
             {menue.map((item, index) => {
               return (
                 <Link key={index} href={item.path}>
                   <a
+                    id='link_menue'
                     className={` 
                          ${router.pathname === item.path ? "active" : null}
                           `}>
@@ -37,6 +35,11 @@ function Header() {
               );
             })}
           </div>
+          <Link href='/'>
+            <a className='navbar-brand'>
+              <i className='bi bi-person-lines-fill'></i>
+            </a>
+          </Link>
         </div>
       </nav>
     </>
