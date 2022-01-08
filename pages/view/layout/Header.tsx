@@ -20,6 +20,11 @@ function Header() {
     <>
       <nav className='navbar navbar-light custom-navbar'>
         <div className='container'>
+          <Link href='/'>
+            <a className='navbar-brand'>
+              <Image src={logos} alt='logo' width={150} height={150} />
+            </a>
+          </Link>
           <div id='filters' className='filters'>
             {menue.map((item, index) => {
               return (
@@ -38,12 +43,6 @@ function Header() {
               );
             })}
           </div>
-
-          <Link href='/'>
-            <a className='navbar-brand'>
-              <Image src={logos} alt='logo' width={150} height={150} />
-            </a>
-          </Link>
         </div>
       </nav>
     </>

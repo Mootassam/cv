@@ -11,25 +11,18 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          <meta charSet='utf-8' />
+          {/* <meta charSet='utf-8' />
           <meta
             content='width=device-width, initial-scale=1.0'
             name='viewport'
           />
-          <title>Mootassam Boughdiri</title>
+          <title>Mootassam Boughdiri</title> */}
 
-          {/* Favicons */}
           <link href='/assets/img/favicon.png' rel='icon' />
           <link
             href='/assets/img/apple-touch-icon.png'
             rel='apple-touch-icon'
           />
-          <link
-            href='https://fonts.googleapis.com/css?family=https://fonts.googleapis.com/css?family=Inconsolata:400,500,600,700|Raleway:400,400i,500,500i,600,600i,700,700i'
-            rel='stylesheet'
-          />
-
-          <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js'></script>
           <script
             dangerouslySetInnerHTML={{
               __html: `
