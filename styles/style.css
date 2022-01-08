@@ -221,8 +221,16 @@ h6,
   height: 2px;
   background: #000;
 }
-.display {
-  display: "flex";
+.home {
+  padding: 100px;
+}
+.home h2,
+p,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
 }
 
 .form-control {

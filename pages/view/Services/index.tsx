@@ -2,6 +2,8 @@ import React from "react";
 export const config = {
   unstable_runtimeJS: false,
 };
+import Footer from "../layout/Footer";
+
 function ServicesPage() {
   return (
     <>
@@ -97,6 +99,12 @@ function ServicesPage() {
           </div>
         </div>
       </section>
+      <Footer />
+      <a
+        href='#'
+        className='back-to-top d-flex align-items-center justify-content-center'>
+        <i className='bi bi-arrow-up-short' />
+      </a>
     </>
   );
 }

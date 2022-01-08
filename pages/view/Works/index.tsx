@@ -2,6 +2,8 @@ import React from "react";
 export const config = {
   unstable_runtimeJS: false,
 };
+import Footer from "../layout/Footer";
+
 function WorksPage() {
   return (
     <>
@@ -13,28 +15,6 @@ function WorksPage() {
               <p className='mb-0'>
                 Freelance Creative &amp; Professional Graphics Designer
               </p>
-            </div>
-            <div
-              className='col-md-12 col-lg-6 text-start text-lg-end'
-              data-aos='fade-up'
-              data-aos-delay={100}>
-              <div id='filters' className='filters'>
-                <a href='#' data-filter='*' className='active'>
-                  All
-                </a>
-                <a href='#' data-filter='.web'>
-                  Web
-                </a>
-                <a href='#' data-filter='.design'>
-                  Design
-                </a>
-                <a href='#' data-filter='.branding'>
-                  Branding
-                </a>
-                <a href='#' data-filter='.photography'>
-                  Photography
-                </a>
-              </div>
             </div>
           </div>
           <div
@@ -117,6 +97,12 @@ function WorksPage() {
           </div>
         </div>
       </section>
+      <Footer />
+      <a
+        href='#'
+        className='back-to-top d-flex align-items-center justify-content-center'>
+        <i className='bi bi-arrow-up-short' />
+      </a>
     </>
   );
 }

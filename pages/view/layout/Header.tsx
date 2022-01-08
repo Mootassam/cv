@@ -3,10 +3,11 @@ import Link from "next/link";
 import { useRouter } from "next/router";
 import { route } from "next/dist/server/router";
 const menue = [
-  { title: "About", path: "/" },
-  { title: "Experience", path: "/view/About" },
+  { title: "Home", path: "/" },
   { title: "Skills", path: "/view/Services" },
-  { title: "Projects", path: "/view/Works" },
+  { title: "Work", path: "/view/Works" },
+  { title: "Code", path: "/view/Services" },
+  { title: "About", path: "/view/About" },
   { title: "Contact", path: "/view/Contact" },
 ];
 function Header() {
@@ -37,17 +38,6 @@ function Header() {
               );
             })}
           </div>
-
-          <a
-            href='#'
-            className={burger}
-            data-bs-toggle='collapse'
-            data-bs-target='#main-navbar'
-            onClick={() => {
-              setIsModal(!isModal);
-            }}>
-            <span />
-          </a>
         </div>
       </nav>
     </>
