@@ -380,15 +380,13 @@ h1 {
 }
 @media (max-width: 780px) {
   .custom-navbar > .container {
+    position: fixed;
+    bottom: 0px;
     display: flex;
     flex-direction: row;
-    z-index: -100;
-    position: fixed;
-    bottom: 8px;
-    right: 0px;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    align-items: flex-start;
+    background-color: rgb(163, 160, 160);
+    justify-content: space-evenly;
   }
   .mobile {
     display: block;
@@ -398,7 +396,8 @@ h1 {
   }
 }
 .custom-navbar .navbar-brand {
-  font-size: 1.7rem;
+  font-size: 1rem;
+  display: none;
 }
 
 /* Burger */
