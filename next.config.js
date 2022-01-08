@@ -1,6 +1,14 @@
-/** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
+  module: {
+    rules: [
+      {
+        test: /\.(png|jpe?g|gif)$/i,
+        use: [
+          {
+            loader: "file-loader",
+          },
+        ],
+      },
+    ],
+  },
 };
-const withImages = require("next-images");
-module.exports = withImages();
