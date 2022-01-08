@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { route } from "next/dist/server/router";
 const menue = [
   { title: "Home", path: "/" },
   { title: "Skills", path: "/view/Services" },
@@ -20,9 +19,7 @@ function Header() {
       <nav className='navbar navbar-light custom-navbar'>
         <div className='container'>
           <Link href='/'>
-            <a className='navbar-brand' href='index.html'>
-              MyPortfolio.
-            </a>
+            <a className='navbar-brand'>MyPortfolio.</a>
           </Link>
           <div id='filters' className='filters'>
             {menue.map((item, index) => {
@@ -32,6 +29,9 @@ function Header() {
                     className={` 
                          ${router.pathname === item.path ? "active" : null}
                           `}>
+                    <span className='mobile'>
+                      <i className='bi bi-binoculars'></i>
+                    </span>
                     {item.title}
                   </a>
                 </Link>
