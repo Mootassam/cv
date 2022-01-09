@@ -541,9 +541,10 @@ img {
   .container {
     margin-right: auto;
     margin-left: auto;
-    padding-right: 18px;
-    padding-left: 18px;
+    padding-right: 9px;
+    padding-left: 9px;
   }
+
   .hero-grid {
     grid-row-gap: 80px;
     -ms-grid-columns: 1fr;
