@@ -538,6 +538,11 @@ img {
 }
 
 @media (max-width: 991px) {
+  .container {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
   .hero-grid {
     grid-row-gap: 80px;
     -ms-grid-columns: 1fr;
