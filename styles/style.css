@@ -537,7 +537,13 @@ img {
   font-family: Poppins, sans-serif;
 }
 
-@media screen and (max-width: 991px) {
+@media (max-width: 991px) {
+  .container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 18px;
+    padding-left: 18px;
+  }
   .hero-grid {
     grid-row-gap: 80px;
     -ms-grid-columns: 1fr;
@@ -554,20 +560,20 @@ img {
     max-width: 590px;
     text-align: center;
   }
-}
 
-@media (max-width: 767px) {
   .display-heading-one {
     font-size: 56px;
   }
 
   .custom-navbar > .container {
+    z-index: 100;
     position: fixed;
     bottom: 0px;
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     background-color: #f1f1f1;
     justify-content: space-evenly;
+
     opacity: 1;
   }
   .display-heading-one.hero {
